@@ -1,0 +1,161 @@
+
+/*index*/
+@media all and (min-width: 420px){  
+    .cuerpo{
+        color:black;
+  }
+    
+}
+
+.cuerpo{
+        background-repeat: no-repeat;
+        background-size:100%;
+        background-color:rgba(223, 214, 214, 0.871)
+    
+}
+
+.video{
+    display: grid;
+    margin-left: 400px;
+    margin-left: 100px;
+   
+    
+}
+
+.pie{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top:50px;
+     
+}
+.gridpadre{
+    display: grid;
+grid-template-areas: 
+"card video video";
+padding-inline-start: 20px;
+
+}
+.footer{
+    display: flex;
+    text-align: center;
+    font-size:20px;
+    background-color:white;
+    font-style:italic;
+    margin-top: 100px;
+    color:black;
+}
+
+
+
+}
+
+/*alineado*/
+.alineado{
+    display: flex;
+    columns: 30px;
+    color:black;
+    font-size: 10px;
+    right: 10px;
+    
+}
+.alineadomain{
+    display: flex;
+    align-content: baseline;
+}
+
+.procesoAlineado{
+    color:black;
+   
+}
+
+
+/*contacto*/
+.alineadomain{
+    display: flex;
+    align-content: baseline;
+}
+.consulta{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+    font-style:italic;
+}
+/*neumaticos*/
+.repuestos{
+    display:grid;
+    grid-template-columns: 2fr 2fr ;
+    grid-template-rows: 2fr 2fr;
+    justify-content: baseline;
+}
+
+.mision{
+    background-color:white;
+    font-size: xx-large;
+    background-color: white;
+    padding: 10px;
+
+}
+
+
+.galeria{
+    margin-left: 70px;
+}
+.medio{
+    display: flex;
+    background-color: white;
+    color:black;
+    flex-direction:column;
+    justify-content:space-around;
+    font-size: 20px;
+    font-style: italic;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: black;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.info{
+    display: flex;
+    font-style:oblique;
+    font-size:30px;
+    color:black;
+    padding: 50px;
+    justify-content: center;
+}
+/*centrado*/
+/*
+.centradoConteiner{
+    background-image:url(../multimedia/img/centrado1.jpg);
+     
+
+}
+*/
+
+/*repuestos
+
+.card section{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction:column;
+            max-height: 35rem; 
+            
+    
+}
+.card2{
+    display: flex;
+    position: relative;
+    columns: 25% 25%;
+    flex-direction: row;
+    
+    
+
+}
+*/
+.container{
+    margin-top: 50px;
+
+}
+
+
